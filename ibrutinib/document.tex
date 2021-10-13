@@ -1,0 +1,336 @@
+\documentclass[UTF8,12pt,a4paper]{ctexart}
+\usepackage[breaklinks,colorlinks,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\makeatletter
+\def\UrlAlphabet{%
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+	\do\Y\do\Z}
+\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+\g@addto@macro{\UrlBreaks}{\UrlDigits}
+\makeatother
+\usepackage{color}
+\usepackage{hycolor}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage[backend=biber,style=gb7714-2015,citestyle=numeric-comp,maxnames=3]{biblatex}
+\DeclareFieldFormat{journaltitle}{\itshape{#1}}
+\DeclareFieldFormat{date}{\itshape{#1}}
+\addbibresource{document.bib}
+\usepackage{fancyhdr}
+\usepackage[titletoc,title]{appendix}
+\usepackage{caption}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\usepackage{epstopdf}
+\usepackage{CJKulem}
+\usepackage{ulem}
+\usepackage{fbox}
+\usepackage{url}
+\def\UrlFont{\rmfamily}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{chngcntr}
+\newfontfamily{\FA}{[FontAwesome.otf]}
+\graphicspath{{graphs/}{../graphs/}}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\usepackage{enumitem}
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
+\setenumerate[1]{itemsep=0.8ex,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setitemize[1]{itemsep=0.8ex,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setdescription{itemsep=0.8ex,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setlength{\parskip}{0.8ex}
+\geometry{left=3.17cm,right=3.17cm,top=2.84cm,bottom=2.54cm}
+\begin{document}
+\setcounter{page}{1}
+\thispagestyle{plain}
+\pagenumbering{roman}
+\vspace*{2.6em}
+\begin{center}
+	\includegraphics[width=0.6\linewidth]{graphs/logo}
+\end{center}
+\vspace*{4em}
+\centerline{\Huge 燕园学习简介}
+
+\vspace*{2em}
+
+\centerline{\large 20级药学3班\quad 胡志斌}
+\vspace*{2em}
+
+\section*{摘要}
+\addcontentsline{toc}{section}{摘要}
+这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要，这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要
+\par\textbf{关键字：} 关键字1，关键字2，关键字3
+
+\clearpage
+\thispagestyle{plain}
+\vspace*{2.6em}
+\begin{center}
+	\includegraphics[width=0.6\linewidth]{graphs/logo}
+\end{center}
+\vspace*{4em}
+\centerline{\Huge Introduction to studying in PKU}
+
+\vspace*{2em}
+
+\centerline{\large 203\quad Zhibin Hu}
+\vspace*{2em}
+
+\section*{Abstact}
+\addcontentsline{toc}{section}{Abstract}
+Write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, write summary here, Write a summary here. Write a summary here
+\par\textbf{Keywords:} keyword1, keyword2, 
+\clearpage
+\newgeometry{left=4cm,right=4cm,top=2.64cm,bottom=2.54cm}
+\thispagestyle{plain}
+\section*{目录}
+\vspace*{-6ex}
+\addcontentsline{toc}{section}{目录}
+\renewcommand{\contentsname}{}
+\begin{spacing}{1.1}
+	\tableofcontents
+\end{spacing}
+\restoregeometry
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{
+	\begin{picture}(0,0)
+		\put(-83.6,-10){\includegraphics[width=0.2\linewidth]{graphs/logo}}
+	\end{picture}}
+\fancyhead[L]{\textit{\leftmark}}
+\fancyfoot[CO,CE]{\thepage}
+\section{章节一}
+
+这里写章节一，这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章\upcite{karvelis2021transposonassociated,lucas2021impact,guomei2020jiyuhplcjiehehuaxuejiliangxueduihuangqinjingyezuijiacaishouqidepingjieyanjiu}，斤斤计较
+\subsection{1.1}
+\subsubsection{1.1.1}
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\begin{table}[h]
+		\renewcommand\arraystretch{1.2}
+		\centering
+	\begin{tabular}{@{}ccc@{}}
+		\toprule
+		\textbf{选课阶段}               & \textbf{开始时间}         & \textbf{结束时间}        \\ \midrule
+		预选                 & 7月7日上午10:00  & 9月10日上午10:00 \\
+		公布抽签结果             & 9月10日下午13:00 & 9月10日下午15:00 \\
+		补退选第一阶段候补选课        & 9月10日下午15:00 & 9月11日上午10:00 \\
+		补退选第一阶段候补抽签        & 9月11日上午10:00 & 9月11日下午13:00 \\
+		补退选第一阶段候补抽签结果      & 9月11日下午13:00 &              \\
+		补退选第二阶段      & 9月12日上午10:00 & 9月15日中午12:00 \\
+		补退选第三阶段& 9月15日下午17:00 & 9月21日上午10:00 \\
+		补选（不能退选）           & 9月21日上午10:00 & 9月23日上午10:00 \\ \bottomrule
+	\end{tabular}
+	\caption{选课时间表}
+\end{table}
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+\begin{enumerate}
+	\setlength{\parindent}{2em}
+	\renewcommand{\labelenumi}{\textbf{\theenumi .}}
+	\item{\textbf{列表}}
+	这里写章节一这里写章节一这里写章节一这里写章节一
+	
+	\item{\textbf{列表}}
+	这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	\item{\textbf{列表}}
+	这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+\end{enumerate}
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\subsubsection{1.1.2}
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+\begin{enumerate}
+	\setlength{\parindent}{2em}
+	\renewcommand{\labelenumi}{\textbf{\theenumi .}}
+	\item{\textbf{列表}}
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	      
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	      
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	\item{\textbf{列表}}
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	\item{\textbf{列表}}
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+	\item{\textbf{列表}}
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+	      这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\end{enumerate}
+
+囿于篇幅所限，在这里我就不介绍形策课的相关情况了，到时候学委会和大家详细说明，一般都在下学期发布相关通知。
+\subsection{1.2}
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+\begin{table}[h]
+	\renewcommand\arraystretch{1.2}
+	\centering
+	\begin{tabular}{@{}lll@{}}
+		\toprule
+		\textbf{课程名}        & \textbf{课程类别}                & \textbf{学分} \\ \midrule
+		高等数学C (一)         & 专业必修课                       & 4学分         \\
+		计算概论（B）          & 专业必修课                       & 3学分         \\
+		普通化学（B）          & 专业必修课                       & 4学分         \\
+		普通化学实验（B）      & 专业必修课                       & 2学分         \\
+		普通生物学实验(B)      & 专业必修课(其他专业为通选课) & 2学分         \\
+		思想道德修养与法律基础 & 思政课                           & 2学分         \\
+		高级英语阅读           & 英语课                           & 2学分         \\
+		中医养生学             & 通选课                           & 2学分         \\
+		普通生物学(B)          & 通选课                           & 3学分         \\
+		药学事业导论           & 专业必修课（学院开设）           & 1学分         \\ \bottomrule
+	\end{tabular}
+	\caption{我的大一上学期选课情况，总计25学分}
+	\label{tab:my-table}
+\end{table}
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\begin{table}[h]
+	\renewcommand\arraystretch{1.2}
+	\centering
+	\begin{tabular}{@{}p{5cm}p{5cm}p{1.4cm}@{}}
+		\toprule
+		\textbf{课程名}        & \textbf{课程类别} & \textbf{学分} \\
+		\midrule
+		分析化学(B)            & 专业必修课    & 2学分         \\
+		分析化学实验(B)        & 专业必修课    & 2学分         \\
+		普通物理               & 专业必修课        & 4学分         \\
+		军事理论               & 专业必修课        & 2学分         \\
+		普通统计学             & 通选课            & 3学分         \\
+		地震概论               & 通选课            & 2学分         \\
+		中国近现代史纲要       & 政治课            & 2学分         \\
+		英美戏剧与电影         & 英语课            & 2学分         \\
+		细胞与分子生物学（一） & 专业必修课    & 4学分         \\
+		排球                   & 体育课            & 1学分         \\ \bottomrule
+	\end{tabular}
+	\caption{我的大一下学期选课情况，总计24学分}
+	\label{888}
+\end{table}
+\subsubsection{1.2.1}
+
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\subsubsection{1.2.2}
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\subsubsection{1.2.3}
+这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一这里写章节一
+
+\newpage
+\section{章节二}
+\subsection{2.1}
+\subsubsection{2.1.1}
+
+\begin{table}[h]
+	\renewcommand\arraystretch{1.2}
+	\centering
+	\begin{tabular}{@{}cccccccc@{}}
+		\toprule
+		\textbf{分数}                                       & \textbf{GPA} & \textbf{分数} & \textbf{GPA} & \textbf{分数} & \textbf{GPA} & \textbf{分数} & \textbf{GPA} \\ \midrule
+		100                                                 & 4.00         & 90            & 3.81         & 80            & 3.25         & 70            & 2.31         \\
+		99                                                  & 4.00         & 89            & 3.77         & 79            & 3.17         & 69            & 2.20         \\
+		98                                                  & 3.99         & 88            & 3.73         & 78            & 3.09         & 68            & 2.08         \\
+		97                                                  & 3.98         & 87            & 3.68         & 77            & 3.01         & 67            & 1.96         \\
+		96                                                  & 3.97         & 86            & 3.63         & 76            & 2.92         & 66            & 1.83         \\
+		95                                                  & 3.95         & 85            & 3.58         & 75            & 2.83         & 65            & 1.70         \\
+		94                                                  & 3.93         & 84            & 3.52         & 74            & 2.73         & 64            & 1.57         \\
+		93                                                  & 3.91         & 83            & 3.46         & 73            & 2.63         & 63            & 1.43         \\
+		92                                                  & 3.88         & 82            & 3.39         & 72            & 2.53         & 62            & 1.29         \\
+		91                                                  & 3.85         & 81            & 3.32         & 71            & 2.42         & 61            & 1.15         \\
+		\multicolumn{6}{c}{${\rm GPA}= 4-3*(100-x)^2/1600$} & 60           & 1.00                                                                                       \\ \bottomrule
+	\end{tabular}
+	\caption{百分制和GPA换算关系}
+	\label{tab:my-table2}
+\end{table}
+\clearpage
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{
+	\begin{picture}(0,0)
+		\put(-81.5,-10){\includegraphics[width=0.2\linewidth]{graphs/logo}}
+\end{picture}}
+\fancyhead[L]{\textit{参考文献}}
+\fancyfoot[CO,CE]{\thepage}
+\addcontentsline{toc}{section}{参考文献}
+\normalem
+\printbibliography[title=参考文献]
+这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献
+
+这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献这里写参考文献
+
+\clearpage
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{
+	\begin{picture}(0,0)
+		\put(-81.5,-10){\includegraphics[width=0.2\linewidth]{graphs/logo}}
+\end{picture}}
+\fancyhead[L]{\textit{致谢}}
+\fancyfoot[CO,CE]{\thepage}
+\section*{致谢}
+\addcontentsline{toc}{section}{致谢}
+
+这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢
+
+这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢这里写致谢
+
+
+\begin{flushright}
+	胡志斌\hspace*{2.2em}
+
+	\today
+\end{flushright}
+\newpage
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{
+	\begin{picture}(0,0)
+		\put(-81.5,-10){\includegraphics[width=0.2\linewidth]{graphs/logo}}
+	\end{picture}}
+\fancyhead[LO,LE]{\textit{附录}~A\quad\textit{附录名称}}
+\fancyfoot[CO,CE]{\thepage}
+\begin{appendices}
+	\renewcommand{\appendixname}{附录}
+	\appendixtitleon
+	\section{附录A}
+	\subsection*{A.1}
+
+	这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+
+	这里是附录这里是附录这里是附录
+	\begin{enumerate}
+		\item 这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+		
+		\item 这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+		
+		\item 这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+		
+		\item 这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+	\end{enumerate}
+
+	\subsection*{A.2}
+	这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+	
+	这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录这里是附录
+\end{appendices}
+
+\end{document}

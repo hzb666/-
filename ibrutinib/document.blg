@@ -1,0 +1,17 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'document.blg'
+[158] biber-MSWIN32:340> INFO - === 
+[206] Biber.pm:415> INFO - Reading 'document.bcf'
+[420] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[441] Biber.pm:4340> INFO - Processing section 0
+[458] Biber.pm:4531> INFO - Looking for bibtex format file 'document.bib' for section 0
+[526] bibtex.pm:1689> INFO - LaTeX decoding ...
+[537] bibtex.pm:1494> INFO - Found BibTeX data source 'document.bib'
+[679] Utils.pm:395> WARN - ISBN '0254-1793' in entry 'guomei2020jiyuhplcjiehehuaxuejiliangxueduihuangqinjingyezuijiacaishouqidepingjieyanjiu' is invalid - run biber with '--validate_datamodel' for details.
+[694] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[694] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[694] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[694] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[700] bbl.pm:654> INFO - Writing 'document.bbl' with encoding 'UTF-8'
+[716] bbl.pm:757> INFO - Output to document.bbl
+[716] Biber.pm:128> INFO - WARNINGS: 1

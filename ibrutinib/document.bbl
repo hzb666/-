@@ -1,0 +1,425 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{karvelis2021transposonassociated}{article}{}
+      \name{author}{9}{}{%
+        {{hash=b88b120772d18c72110ea8dd4dcd4271}{%
+           family={Karvelis},
+           familyi={K\bibinitperiod},
+           given={Tautvydas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=50b771846c60708cb846068eca93ec99}{%
+           family={Druteika},
+           familyi={D\bibinitperiod},
+           given={Gytis},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0a9c8a7b696e799c026cc3f87061614a}{%
+           family={Bigelyte},
+           familyi={B\bibinitperiod},
+           given={Greta},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f2aaf5a1fefa0fdf2fa4fd8db01f3f2b}{%
+           family={Budre},
+           familyi={B\bibinitperiod},
+           given={Karolina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d8441ebec5ffacc37a2cd7b864830768}{%
+           family={Zedaveinyte},
+           familyi={Z\bibinitperiod},
+           given={Rimante},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f3996bcc5198a467b165ed2ac81e8b8b}{%
+           family={Silanskas},
+           familyi={S\bibinitperiod},
+           given={Arunas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c176b8b0ef43548cdd461888f63a5f12}{%
+           family={Kazlauskas},
+           familyi={K\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7a7b9dcf615335f8f1ae54871cd5ec65}{%
+           family={Venclovas},
+           familyi={V\bibinitperiod},
+           given={Česlovas},
+           giveni={Č\bibinitperiod}}}%
+        {{hash=454a9c71894486e95f630acc0aee7bdc}{%
+           family={Siksnys},
+           familyi={S\bibinitperiod},
+           given={Virginijus},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{7790c1334ee546e546940194e4c7fc75}
+      \strng{fullhash}{eefc58bf9d64bd2b5ecc4efe43032254}
+      \strng{bibnamehash}{6e56694831dae26fbf5477b196c07ea0}
+      \strng{authorbibnamehash}{6e56694831dae26fbf5477b196c07ea0}
+      \strng{authornamehash}{7790c1334ee546e546940194e4c7fc75}
+      \strng{authorfullhash}{eefc58bf9d64bd2b5ecc4efe43032254}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transposition plays a key role in reshaping genomes of all living organisms1. Insertion sequences (ISs) of IS200/IS605 and IS607 families2 are among the simplest mobile genetic elements and contain only the genes required for their transposition and its regulation. These elements encode tnpA transposase that is essential for mobilization and often carry an accessory tnpB gene which is dispensable for transposition. Although the role of TnpA in IS200/IS605 transposon mobilization is well documented, the function of TnpB had remained largely unknown. It had been suggested that TnpB plays a role in transposition regulation though no mechanism for this was established3–5. Intriguingly, a bioinformatic analysis indicated that TnpB might be a predecessor of the CRISPR–Cas9/Cas12 nucleases6–8. However, no biochemical activities had been ascribed to TnpB. Here we show that TnpB of Deinococcus radiodurans ISDra2 is an RNA-directed nuclease that is guided by RE-derived RNA (reRNA) to cleave DNA next to the 5′ TTGAT transposon associated motif (TAM). We also show that TnpB could be reprogrammed to cleave DNA target sites in human cells. Together, this study expands our understanding of transposition mechanisms by highlighting the role of TnpB in transposition, experimentally confirms that TnpB is a functional progenitor of CRISPR-Cas nucleases and establishes TnpB as a prototype of a new system for genome editing.}
+      \field{day}{7}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{month}{10}
+      \field{shortjournal}{Nature}
+      \field{title}{Transposon-Associated {{TnpB}} Is a Programmable {{RNA}}-Guided {{DNA}} Endonuclease}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1038/s41586-021-04058-1
+      \endverb
+      \keyw{karvelis2021transposonassociated}
+    \endentry
+    \entry{lucas2021impact}{article}{}
+      \name{author}{46}{}{%
+        {{hash=cf742a9cb89e66c473c51a3688bd18c1}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Carolina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fda8a3cde58f820c1c8c4535b1ae5630}{%
+           family={Vogels},
+           familyi={V\bibinitperiod},
+           given={Chantal\bibnamedelimb B.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=3fa6cb7c70c74c1356fd674191c6f6d2}{%
+           family={Yildirim},
+           familyi={Y\bibinitperiod},
+           given={Inci},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9be0258e0291f3e6ab49c7ece7de5fc1}{%
+           family={Rothman},
+           familyi={R\bibinitperiod},
+           given={Jessica\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=571ac04b129f1b318084650a520ea5bb}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Peiwen},
+           giveni={P\bibinitperiod}}}%
+        {{hash=81de614a5fede615f3df320e51351e0f}{%
+           family={Monteiro},
+           familyi={M\bibinitperiod},
+           given={Valter},
+           giveni={V\bibinitperiod}}}%
+        {{hash=996de8084b1bcfa0c8f1098b3670106a}{%
+           family={Gelhausen},
+           familyi={G\bibinitperiod},
+           given={Jeff\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e2bf126448baca013438cfa5d8a35692}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4877de134692c6ce349b3252317f1824}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e8cbac0877ea2b2017c194380c603631}{%
+           family={Tabachikova},
+           familyi={T\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5281eda8a2a640ea9caae36ed2a988f1}{%
+           family={Peña-Hernandez},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={Mario\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=081b93771ef84b49022f9351e9cc058e}{%
+           family={Muenker},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Catherine},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7e663fe92a0ff64c6de53ba03f7245de}{%
+           family={Breban},
+           familyi={B\bibinitperiod},
+           given={Mallery\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=6f202a6b8eb722f200f9304fd7b7b148}{%
+           family={Fauver},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ccee78847a35ac3ca8d1f1195d25d6b7}{%
+           family={Mohanty},
+           familyi={M\bibinitperiod},
+           given={Subhasis},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8c9817ddd47dd184825954a7262552d4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jiefang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23d91e01c5c605c9514454d1d991b2f9}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7ebfea8eafaa0b78415c83b151a6ee96}{%
+           family={Muyombwe},
+           familyi={M\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f94d446a5119f597bc962e25568495f}{%
+           family={Downing},
+           familyi={D\bibinitperiod},
+           given={Randy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ac05ae1ae0c714f33a2cdde82c33e57f}{%
+           family={Razeq},
+           familyi={R\bibinitperiod},
+           given={Jafar},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d80cb2b8e370d5c5f3b936bd7d94b8a}{%
+           family={Petrone},
+           familyi={P\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8081c91aa761b71aa42d97c34d6642e4}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5fd936f85939c55f7a28ae6154879352}{%
+           family={Watkins},
+           familyi={W\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=26554f66cd69582b046ac595c42106f7}{%
+           family={Kalinich},
+           familyi={K\bibinitperiod},
+           given={Chaney},
+           giveni={C\bibinitperiod}}}%
+        {{hash=942305c5d26d6cc660239b5e79f4e4f1}{%
+           family={Alpert},
+           familyi={A\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7cea9ce70322e7230773b7ce65fc8b2b}{%
+           family={Brito},
+           familyi={B\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0af80255721741b120cb744e1b89f3d}{%
+           family={Earnest},
+           familyi={E\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ad1f49b3b6b7a761cd9191325fa086ff}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21df431f1d3e75864137a809d130a07d}{%
+           family={Neal},
+           familyi={N\bibinitperiod},
+           given={Caleb},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0df584b29026056d20c0d1c2f3a0f479}{%
+           family={Laszlo},
+           familyi={L\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d49ed4cd8d798b63131ee314a79281bf}{%
+           family={Altajar},
+           familyi={A\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7f81b80f3b4a85ab7eb907a0cce6adf9}{%
+           family={Tikhonova},
+           familyi={T\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod}}}%
+        {{hash=76e22e72945e624af876a4ee9ed09bf3}{%
+           family={Castaldi},
+           familyi={C\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2c3ae3973c9bbac0c248d03993fdc27c}{%
+           family={Mane},
+           familyi={M\bibinitperiod},
+           given={Shrikant},
+           giveni={S\bibinitperiod}}}%
+        {{hash=293f077b4ec86c5366eefa9cd4e02060}{%
+           family={Bilguvar},
+           familyi={B\bibinitperiod},
+           given={Kaya},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c11e680fc0020b0655f241000cff2a8a}{%
+           family={Kerantzas},
+           familyi={K\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3d54bfe78073b8139d9aab81688dc72e}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f4401b7edcc63abe7986a90817842f66}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Wade},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f0a87a77066242743db380609b8495b6}{%
+           family={Landry},
+           familyi={L\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f947b1bfe073109b24da8e571fed52f}{%
+           family={Peaper},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=76ca9627c10ce9025d15bf38205df693}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Albert\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=24fd6d94b6f453dbc5dee3e6d12efacb}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Albert\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3d54804957a98730364c503c82f38c13}{%
+           family={Omer},
+           familyi={O\bibinitperiod},
+           given={Saad\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=24ef91926343c09849b46e5e29913407}{%
+           family={Grubaugh},
+           familyi={G\bibinitperiod},
+           given={Nathan\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=da32dd2ecd533dcf4d6f4ec303166781}{%
+           family={Iwasaki},
+           familyi={I\bibinitperiod},
+           given={Akiko},
+           giveni={A\bibinitperiod}}}%
+        {{hash=14628ced2aedbd9a0494bd22ccc32446}{%
+           family={{Yale SARS-CoV-2 Genomic Surveillance Initiative}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{ef407b426270b7c7129b86cdd919f6bd}
+      \strng{fullhash}{304c79f6627bee955d131777af36d168}
+      \strng{bibnamehash}{8f71a492a17f27ae13bd6b8307fee1e2}
+      \strng{authorbibnamehash}{8f71a492a17f27ae13bd6b8307fee1e2}
+      \strng{authornamehash}{ef407b426270b7c7129b86cdd919f6bd}
+      \strng{authorfullhash}{304c79f6627bee955d131777af36d168}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The emergence of SARS-CoV-2 variants with mutations in major neutralizing antibody-binding sites can affect humoral immunity induced by infection or vaccination1–6. We analysed the development of anti-SARS-CoV-2 antibody and T cell responses in previously infected (recovered) or uninfected (naive) individuals that received mRNA vaccines to SARS-CoV-2. While previously infected individuals sustained higher antibody titres than uninfected individuals post-vaccination, the latter reached comparable levels of neutralization responses to the ancestral strain after the second vaccine dose. T cell activation markers measured upon spike or nucleocapsid peptide in vitro stimulation showed a progressive increase after vaccination. Comprehensive analysis of plasma neutralization using 16 authentic isolates of distinct locally circulating SARS-CoV-2 variants revealed a range of reduction in the neutralization capacity associated with specific mutations in the spike gene: lineages with E484K and N501Y/T (e.g., B.1.351 and P.1) had the greatest reduction, followed by lineages with L452R (e.g., B.1.617.2). While both groups retained neutralization capacity against all variants, plasma from previously infected vaccinated individuals displayed overall better neutralization capacity when compared to plasma from uninfected individuals that also received two vaccine doses, pointing to vaccine boosters as a relevant future strategy to alleviate the impact of emerging variants on antibody neutralizing activity.}
+      \field{day}{11}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{month}{10}
+      \field{shortjournal}{Nature}
+      \field{title}{Impact of Circulating {{SARS}}-{{CoV}}-2 Variants on {{mRNA}} Vaccine-Induced Immunity}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1038/s41586-021-04085-y
+      \endverb
+      \keyw{document}
+    \endentry
+    \entry{guomei2020jiyuhplcjiehehuaxuejiliangxueduihuangqinjingyezuijiacaishouqidepingjieyanjiu}{article}{}
+      \name{author}{8}{}{%
+        {{hash=3d83996a7b7b6c96298a65e3b1c224ad}{%
+           family={郭梅},
+           familyi={郭\bibinitperiod}}}%
+        {{hash=48c40b33aed0ff1780caef265fec9f45}{%
+           family={安琪},
+           familyi={安\bibinitperiod}}}%
+        {{hash=a0d163c053dcf8fa687797f2ef76220b}{%
+           family={申亚君},
+           familyi={申\bibinitperiod}}}%
+        {{hash=3549ad7d44dcbe5b13b9a09c2815f992}{%
+           family={高文涛},
+           familyi={高\bibinitperiod}}}%
+        {{hash=c58c91bbe914e0fd5ff40399b8e94ae0}{%
+           family={郭龙},
+           familyi={郭\bibinitperiod}}}%
+        {{hash=8c23e7ff3d02c8b2b08e259fb4d95c5b}{%
+           family={刘红娟},
+           familyi={刘\bibinitperiod}}}%
+        {{hash=77a1fc9d3e924561da5a00ba0d9170c2}{%
+           family={郑玉光},
+           familyi={郑\bibinitperiod}}}%
+        {{hash=39980d2b4cce5772ee03c2b55330dc08}{%
+           family={张丹},
+           familyi={张\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{ed198cbc813ea5c39ff57f68dd9a9b28}
+      \strng{fullhash}{1ee15a4bb971698eff0730ee253aa9cc}
+      \strng{bibnamehash}{81092ccb458c8fea21fe53589f26a3e5}
+      \strng{authorbibnamehash}{81092ccb458c8fea21fe53589f26a3e5}
+      \strng{authornamehash}{ed198cbc813ea5c39ff57f68dd9a9b28}
+      \strng{authorfullhash}{1ee15a4bb971698eff0730ee253aa9cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{目的:考察不同生长期黄芩茎、叶中化学成分的动态变化规律,探讨黄芩茎、叶最佳采收期。方法:采用超声提取,建立高效液相色谱法对不同生长期黄芩茎、叶中野黄芩苷、黄芩苷、木犀草素、汉黄芩苷4个黄酮类化学成分的含量测定方法,依据测定结果结合聚类分析、主成分分析和正交偏最小二乘判别分析等化学计量学方法以及统计学方法分析其在黄芩生长过程中的动态积累与分布规律。结果:不同生长期黄芩茎、叶中以上4个黄酮类成分含量呈动态变化,大致趋势均为先升高,至5月份到达最大值,后逐渐降低并有微小浮动;在黄芩茎、叶各个生长期中均为野黄芩苷含量最高,且同一时期的野黄芩苷在叶中含量大于茎中含量。研究结果表明黄芩茎、叶最佳采收期应为...}
+      \field{isbn}{0254-1793}
+      \field{journaltitle}{药物分析杂志}
+      \field{langid}{english}
+      \field{lansortorder}{1}
+      \field{number}{12}
+      \field{title}{{{基于HPLC结合化学计量学对黄芩茎叶最佳采收期的评价研究}}}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{40}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{2099\bibrangedash 2108}
+      \range{pages}{10}
+      \keyw{黄芩茎叶;黄酮;最佳采收期;高效液相色谱;化学计量学}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

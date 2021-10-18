@@ -1,18 +1,4 @@
 \documentclass[UTF8,12pt,a4paper]{ctexart}
-\usepackage[breaklinks,colorlinks,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
-\makeatletter
-\def\UrlAlphabet{%
-	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
-	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
-	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
-	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
-	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
-	\do\Y\do\Z}
-\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
-\g@addto@macro{\UrlBreaks}{\UrlOrds}
-\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
-\g@addto@macro{\UrlBreaks}{\UrlDigits}
-\makeatother
 \usepackage{color}
 \usepackage{hycolor}
 \usepackage{booktabs}
@@ -35,6 +21,20 @@
 \def\UrlFont{\rmfamily}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage[breaklinks,colorlinks,linkcolor=black,citecolor=black,urlcolor=black,hyperfootnotes=true]{hyperref}
+\makeatletter
+\def\UrlAlphabet{%
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+	\do\Y\do\Z}
+\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+\g@addto@macro{\UrlBreaks}{\UrlDigits}
+\makeatother
 \usepackage{chngcntr}
 \newfontfamily{\FA}{[FontAwesome.otf]}
 \graphicspath{{graphs/}{../graphs/}}
@@ -59,31 +59,15 @@
 \centerline{\Huge 关于伊鲁替尼合成的综述}
 
 \vspace*{2em}
-
-\makeatletter
-	\centerline{\large 孙奕辰%
-		\footnotemark
-		\let\saved@Href@B\Hy@footnote@currentHref
-		\addtocounter{footnote}{-1}%
-		\addtocounter{Hfootnote}{-1}% 
-		\quad
-		胡志斌
-		\footnotemark
-		\addtocounter{footnote}{-1}%
-		\addtocounter{Hfootnote}{-1}% 
-		\quad
-		米景璇
-		\footnotemark
-		\let\Hy@footnote@currentHref\saved@Href@B
-		\footnotetext{北京大学药学院2020级3班}
-	}
+\centerline{\large 孙奕辰\footnote{北京大学药学院2020级3班}\quad
+	胡志斌\addtocounter{footnote}{-1}\addtocounter{Hfootnote}{-1}\footnotemark\quad
+	米景璇\addtocounter{footnote}{-1}\addtocounter{Hfootnote}{-1}\footnotemark\quad}
+	
 \vspace*{2em}
-
 \section*{摘要}
 \addcontentsline{toc}{section}{摘要}
 这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要，这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要这里写摘要这里写摘要这里写摘要，这里写摘要这里写摘要
 \par\textbf{关键词：} 关键字1，关键字2，关键字3
-
 \clearpage
 \thispagestyle{plain}
 \vspace*{2.6em}
@@ -94,25 +78,10 @@
 \centerline{\Huge Review on the synthesis of irutinib}
 
 \vspace*{2em}
-\addtocounter{footnote}{-1}%
-\addtocounter{Hfootnote}{-1}% 
 \makeatletter
-\centerline{\large Yichen Sun
-	\footnotemark
-	\let\saved@Href@B\Hy@footnote@currentHref
-	\addtocounter{footnote}{-1}%
-	\addtocounter{Hfootnote}{-1}% 
-	\quad
-	Zhibin Hu
-	\footnotemark
-	\addtocounter{footnote}{-1}%
-	\addtocounter{Hfootnote}{-1}% 
-	\quad
-	Jingxuan Mi
-	\footnotemark
-	\let\Hy@footnote@currentHref\saved@Href@B
-	\footnotetext{Class 3, Grade 20, Peking University School of Pharmaceutical Sciences}
-}
+\centerline{\large Yichen Sun\footnote{Class 3, Grade 2020, Peking University School of Pharmaceutical Sciences}\quad
+	Zhibin Hu\addtocounter{footnote}{-1}\addtocounter{Hfootnote}{-1}\footnotemark\quad
+	Jingxuan Mi\addtocounter{footnote}{-1}\addtocounter{Hfootnote}{-1}\footnotemark}
 \vspace*{2em}
 \section*{Abstact}
 \addcontentsline{toc}{section}{Abstract}

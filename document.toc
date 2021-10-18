@@ -32,4 +32,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{致谢}{8}{section*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{附录 \numberline {A}附录A}{9}{appendix.1.A}%
+\contentsline {section}{附录 \numberline {A}附录A}{9}{appendix.a.A}%
